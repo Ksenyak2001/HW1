@@ -57,8 +57,8 @@ public class DataVisualFrame extends javax.swing.JFrame {
         //jTree1.setVisible(false);
         
         try {   
-        rt = new ReadingTitle("D:\\Users\\Kseny\\OneDrive\\Документы\\NetBeansProjects\\Project_HW1\\src\\main\\java\\mephi2023\\project_hw1\\DataHW1.xlsx");
-        rn = new ReadingName("D:\\Users\\Kseny\\OneDrive\\Документы\\NetBeansProjects\\Project_HW1\\src\\main\\java\\mephi2023\\project_hw1\\DataHW1.xlsx");
+        rt = new ReadingTitle(".\\src\\main\\java\\excel\\DataHW1.xlsx");
+        rn = new ReadingName(".\\src\\main\\java\\excel\\DataHW1.xlsx");
         dm = new DataManipulation();
         } catch (IOException ex){
             System.out.println("Файл не подгрузился");
